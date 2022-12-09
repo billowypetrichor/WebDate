@@ -7,7 +7,6 @@ host = sys.argv[1]
 port = sys.argv[2]
 application = sys.argv[3]
 address = "http://"+host+":"+port+"/"+application+"/quoteAndBuy.do";
-#address = "https://pltestweb.rsagroup.co.uk/MAINT/TEST/morethan-car/quoteAndBuy.do";
 
 browser = webdriver.PhantomJS()
 # browser.set_window_size(1120, 550)
